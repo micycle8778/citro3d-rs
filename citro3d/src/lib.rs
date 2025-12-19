@@ -28,6 +28,7 @@ pub mod shader;
 pub mod texenv;
 pub mod texture;
 pub mod uniform;
+pub use citro3d_sys as sys;
 
 use std::cell::RefMut;
 use std::fmt;
